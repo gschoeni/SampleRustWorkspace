@@ -1,0 +1,8 @@
+[package]
+name = "libsample"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+name = "libsample"
+path = "src/lib.rs"
