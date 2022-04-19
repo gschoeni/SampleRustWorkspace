@@ -1,5 +1,5 @@
 [package]
-name = "oxen-cli"
+name = "sample-cli"
 version = "0.1.0"
 edition = "2018"
 
@@ -8,4 +8,4 @@ libsample = { path = "../lib" }
 
 [[bin]]
 name = "sample-tool"
-path = "src/oxen.rs"
+path = "src/main.rs"
