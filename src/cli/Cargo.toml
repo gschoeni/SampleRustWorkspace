@@ -5,6 +5,7 @@ edition = "2018"
 
 [dependencies]
 libsample = { path = "../lib" }
+clap = { version = "3.1.0", features = ["cargo"] }
 
 [[bin]]
 name = "sample-tool"
