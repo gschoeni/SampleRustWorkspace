@@ -5,7 +5,7 @@ use libsample::util;
 use std::path::{Path};
 
 fn main() -> std::io::Result<()> {
-    let matches = Command::new("sample-tool")
+    let matches = Command::new("my-sample-tool")
         .version("0.0.1")
         .about("Showing how to create CLI")
         .subcommand_required(true)
